@@ -3,7 +3,7 @@ import Hero from "../../elements/home/hero/hero";
 import Intro from "../../elements/home/intro/Intro";
 import Outro from "../../elements/home/outro/Outro";
 import Person from "../../elements/home/person/Person";
-import Flex from "../../basics/flex/flex";
+import Flex from "../../basics/flex/Flex";
 import styles from "./Home.module.css";
 
 import { MetaProvider, Title, Meta } from "solid-meta";

@@ -1,5 +1,5 @@
 import { For } from "solid-js";
-import Flex from "../../../basics/flex/flex";
+import Flex from "../../../basics/flex/Flex";
 
 import styles from "./Article.module.css";
 

@@ -1,7 +1,7 @@
 import { lazy } from "solid-js";
 import { Routes, Route } from "solid-app-router";
 import Menu from "../../elements/menu/Menu";
-import Flex from "../../basics/flex/flex";
+import Flex from "../../basics/flex/Flex";
 import styles from "./Routes.module.css";
 import SkipRef from "../../basics/skipRef/SkipRef";
 

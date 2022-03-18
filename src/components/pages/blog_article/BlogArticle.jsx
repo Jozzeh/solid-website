@@ -1,5 +1,5 @@
 import Footer from "../../elements/footer/Footer";
-import Flex from "../../basics/flex/flex";
+import Flex from "../../basics/flex/Flex";
 import ArticleList from "../../../../public/data/blog/articles.json";
 
 import { MetaProvider, Title, Meta } from "solid-meta";
