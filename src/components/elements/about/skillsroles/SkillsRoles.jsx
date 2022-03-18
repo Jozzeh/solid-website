@@ -1,5 +1,5 @@
 import { createSignal, For, onMount } from "solid-js";
-import Skills from "./skills";
+import Skills from "./Skills";
 
 import styles from "./SkillsRoles.module.css";
 
