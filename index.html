@@ -2,15 +2,18 @@
 <html lang="en">
   <head>
     <script type="text/javascript">
-      console.log(window.location.hostname);
-      // if (window.location.href.indexOf("localhost") === -1 && ) {
-      //     window.location = window.location.href.replace("www.","");
-      // }
-      </script>
+      if (window.location.hostname === "josdeberdt.be") {
+        window.location = window.location.href.replace("//jos", "//www.jos");
+      }
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" type="image/ico" href="/src/assets/imgs/jos-favicon.png" />
+    <link
+      rel="shortcut icon"
+      type="image/ico"
+      href="/src/assets/imgs/jos-favicon.png"
+    />
     <meta
       name="viewport"
       content="initial-scale=1.0, width=device-width"
@@ -105,6 +108,5 @@
     <div id="root"></div>
 
     <script src="/src/index.jsx" type="module"></script>
-    
   </body>
 </html>
