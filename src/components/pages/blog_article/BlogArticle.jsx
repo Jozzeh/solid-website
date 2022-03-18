@@ -7,7 +7,7 @@ import { createSignal, onMount, Show } from "solid-js";
 import { useParams } from "solid-app-router";
 
 import styles from "./BlogArticle.module.css";
-import LineText from "../../basics/line_text/linetext";
+import LineText from "../../basics/line_text/LineText";
 import Article from "../../elements/blog/article/Article";
 
 const BlogArticle = () => {

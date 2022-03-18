@@ -1,7 +1,7 @@
 import { Meta, MetaProvider, Title } from "solid-meta";
 import DoubleColumn from "../../basics/double_column/DoubleColumn";
 import Flex from "../../basics/flex/Flex";
-import LineText from "../../basics/line_text/linetext";
+import LineText from "../../basics/line_text/LineText";
 import Archive from "../../elements/blog/archive/Archive";
 import Featured from "../../elements/blog/featured/Featured";
 import Random from "../../elements/blog/random/Random";
