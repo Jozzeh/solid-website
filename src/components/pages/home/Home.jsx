@@ -1,5 +1,5 @@
 import Footer from "../../elements/footer/Footer";
-import Hero from "../../elements/home/hero/hero";
+import Hero from "../../elements/home/hero/Hero";
 import Intro from "../../elements/home/intro/Intro";
 import Outro from "../../elements/home/outro/Outro";
 import Person from "../../elements/home/person/Person";
