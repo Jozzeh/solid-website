@@ -1,0 +1,20 @@
+.smallFlexContent {
+  max-width: 680px;
+  min-width: auto;
+  padding: 0 15px;
+}
+
+.greyWrapper {
+  padding: 25px 0;
+  background-color: #f5f5f5;
+}
+
+.extraMargin {
+  margin: 25px 0;
+}
+
+@media screen and (min-width: 900px) {
+  .extraMargin {
+    margin: 40px 0;
+  }
+}

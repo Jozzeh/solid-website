@@ -1,0 +1,15 @@
+#aboutIntroTitle {
+  margin-top: 25px;
+}
+#aboutIntroText {
+  padding-bottom: 25px;
+}
+
+@media screen and (min-width: 900px) {
+  #aboutIntroTitle {
+    margin-top: 0;
+  }
+  #aboutIntroText {
+    padding-bottom: 0px;
+  }
+}

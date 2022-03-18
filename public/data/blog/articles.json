@@ -1,0 +1,533 @@
+{
+  "data": [
+    {
+      "handle": "idea-production-build",
+      "meta": {
+        "title": "Building this site - Jos De Berdt",
+        "description": "Going from an idea to a website can be a difficult process, but it shouldn't. The process I use to get a website done, is easy and fast."
+      },
+      "pubdate": "2020-01-03",
+      "title": "A website story: From idea to production",
+      "article": [
+        {
+          "type": "paragraph",
+          "data": "This website shows only a tiny sliver of what I can do, but it also shows that I develop outside of my every day job."
+        },
+        {
+          "type": "paragraph",
+          "data": "How I went on to create this website, and why I have chosen technology X and Y... is a tougher question. I see this website as purely informational about what I have done, can do and how I work. SEO is not high on my priority list but rest assured, I know on-page SEO quite well."
+        },
+        {
+          "type": "paragraph",
+          "data": "But let's have a look at how this website was conceived."
+        },
+        {
+          "type": "image-portrait",
+          "data": {
+            "link": "/assets/imgs/blog/making-of/content-structure.jpg",
+            "alt": "Content structuring in a sketch"
+          }
+        },
+        {
+          "type": "heading",
+          "data": "Content structure"
+        },
+        {
+          "type": "paragraph",
+          "data": "Some people like to start with a design, but I like to start thinking about content and model my UI according to the content."
+        },
+        {
+          "type": "paragraph",
+          "data": "First, I list the pages and what I want to say in those pages (see above). Next, I make a very very VERY rough sketch of all pages and even the behavior within the page."
+        },
+        {
+          "type": "image-gallery",
+          "data": {
+            "imgs": [
+              "/assets/imgs/blog/making-of/home-page-sketch.jpg",
+              "/assets/imgs/blog/making-of/about-page-sketch.jpg",
+              "/assets/imgs/blog/making-of/blog-page-sketch.jpg",
+              "/assets/imgs/blog/making-of/blog-page-detail-sketch.jpg"
+            ],
+            "alt": "More sketches of pages..."
+          }
+        },
+        {
+          "type": "heading",
+          "data": "Sketches & build"
+        },
+        {
+          "type": "paragraph",
+          "data": "If I need some content piece (component) in more detail, I'll draw it in more detail on another piece of paper until I have enough details to form the website in my mind."
+        },
+        {
+          "type": "image-portrait",
+          "data": {
+            "link": "/assets/imgs/blog/making-of/about-page-jobs-sketch.jpg",
+            "alt": "A sketch of first content / idea for this website"
+          }
+        },
+        {
+          "type": "heading",
+          "data": "Technology choice"
+        },
+        {
+          "type": "paragraph",
+          "data": "After all designs and content are made... I choose the technology I want to work in. I've chosen NextJS because it uses React and I'm working a lot with React these days."
+        },
+        {
+          "type": "paragraph",
+          "data": "Other technologies such as Svelte, native web components, etc... are very interesting, but I wanted to get to know NextJS a bit more and how it utilises React."
+        },
+        {
+          "type": "paragraph",
+          "data": "Does this website show what I can do? No, and after 11 years in webdevelopment, I don't think I can create a website to show everything in detail."
+        },
+        {
+          "type": "paragraph",
+          "data": "My LinkedIn page is the best resource to see more projects, or have a look at my Github page to see code of this website. Feel free to create a pull request if you want to change something."
+        }
+      ]
+    },
+    {
+      "handle": "notable-projects",
+      "meta": {
+        "title": "Notable projects - Jos De Berdt",
+        "description": "See the coolest and most rewarding projects that Jos De Berdt made for small and big companies."
+      },
+      "pubdate": "2020-03-10",
+      "title": "Some of my projects and why I think they are great",
+      "article": [
+        {
+          "type":"paragraph",
+          "data": "In my experience as webdeveloper, I created and co-created a lot of projects. Some were more challenging than others, but the challenge & learning experience makes it fun... Did you know, I even recreated part of this website in Svelte and NextJS:"
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Click here to see this website made with NextJS",
+            "link": "https://github.com/Jozzeh/live-website"
+          }
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Click here to see this website made with Svelte",
+            "link": "https://github.com/Jozzeh/svelte-website"
+          }
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "I have also written some articles on Medium about javascript, NodeJS, Micro Frontends, ...",
+            "link": "https://medium.com/@jozzeh"
+          }
+        },
+        {
+          "type":"paragraph",
+          "data": "Here are a few projects I am quite proud of."
+        },
+        {
+          "type": "image-gallery",
+          "data": {
+            "imgs": [
+              "/assets/imgs/blog/projects/vanheedeplus1.png",
+              "/assets/imgs/blog/projects/vanheedeplus2.png"
+            ],
+            "alt": "VanheedePlus Mobile application."
+          }
+        },
+        {
+          "type":"heading",
+          "data": "VanheedePlus: First React Native mobile app"
+        },
+        {
+          "type":"paragraph",
+          "data": "I co-created the VanheedePlus application with 1 other front-end developer en 2 back-end developers. The project was very interesting as it was my first React Native project to go to the App and Play store. We used Azure and appcenter to send notifications, test, build & deploy the app."
+        },
+        {
+          "type":"paragraph",
+          "data": "Although the app itself is not very big, I really liked this project because of the end result:"
+        },
+
+        {
+          "type":"unordened-list",
+          "data": [
+            "A working app which delighted the client and end-users",
+            "Automated testing, building & deployment",
+            "Everything is nicely documented",
+            "Huge project velocity"
+          ]
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Link to the project on the App store",
+            "link": "https://apps.apple.com/us/app/vanheede-plus/id1490442195"
+          }
+        },
+        {
+          "type": "image-landscape",
+          "data": {
+            "link": "/assets/imgs/blog/projects/futurn-project.jpg",
+            "alt": "Screenshot of the futurn website"
+          }
+        },
+        {
+          "type":"heading",
+          "data": "Futurn: Website with an impact"
+        },
+        {
+          "type":"paragraph",
+          "data": "If I was to define success of a website by amount of visitors... then Futurn is not my most succesfull website. However I do believe it is a project that had a huge impact on the client."
+        },
+        {
+          "type":"paragraph",
+          "data": "Before I created this website, the company website was not bringing in a lot of leads. It's hard to get first place in google if you operate in the real estate industry. So I took some time to get the on-page SEO right. The result?"
+        },
+        {
+          "type":"unordened-list",
+          "data": [
+            "Multiple pages on first place in Google",
+            "10 times more visitors",
+            "15 times more leads",
+            "One happy company"
+          ]
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Go to the Futurn real estate site",
+            "link": "https://www.futurn.com"
+          }
+        },
+        {
+          "type":"paragraph",
+          "data": "(If the definition of success for a website is visitor count, then I created a multisite system for a Belgian political party. The national website alone attracted more than 100 000 visitors/month.)"
+        },
+        {
+          "type": "image-landscape",
+          "data": {
+            "link": "/assets/imgs/blog/projects/architecture-example.png",
+            "alt": "Example of a very simple service-based API architecture"
+          }
+        },
+        {
+          "type":"heading",
+          "data": "Architectures: Envision, setup, work, ..."
+        },
+        {
+          "type":"paragraph",
+          "data": "I've worked with some architectures and created my own architectures. It has given me a ton of insight on how to approach a project, evaluate the scale and future scaling. Here are some architectures I know:"
+        },
+        {
+          "type":"unordened-list",
+          "data": [
+            "Monolith",
+            "Micro Frontends",
+            "JAM / API driven",
+            "Service based",
+            "Microservices",
+            "Event driven",
+            "A mix of some of the above"
+          ]
+        },
+        {
+          "type":"paragraph",
+          "data": "* Before proceeding, I realise this might raise some questions, remarks or concerns with people. However, note that I am not talking about any programming language or technology in particular. Architectures can/should be language-agnostic."
+        },
+        {
+          "type":"paragraph",
+          "data": "While the monolith is usually enough for most projects, I did have a few projects which required more than just one service."
+        },
+        {
+          "type":"paragraph",
+          "data": "Some developers will say that monoliths are good because they are not complex and this is true. However, when creating an architecture, it's the job of a developer to make sure the architecture is simple enough to understand yet powerfull enough to scale if necessairy. In other words, the project does not dictate the complexity of the architecture."
+        },
+        {
+          "type":"paragraph",
+          "data": "Want to discuss high level architectures? Contact me through LinkedIn or Github."
+        }
+      ]
+    },
+    {
+      "handle": "kiss-development",
+      "meta": {
+        "title": "KISS methodology - Jos De Berdt",
+        "description": "Keep It Simple Stupid or KISS is a methodology for webdevelopers that want to create clean and understandable projects. KISS means keeping things easy but performant for every stakeholder."
+      },
+      "pubdate": "2020-01-18",
+      "title": "KISS in software development",
+      "article": [
+        {
+          "type":"paragraph",
+          "data": "Sorry, not de rockband and neither the action..."
+        },
+        {
+          "type": "paragraph",
+          "data": "The KISS method is short for Keep It Simple Stupid. It was used for the first time during the 70's (that's 1970...) in programming. At that time, the internet was still very new and consisted of just a handfull of pages. Nevertheless, this method is something a lot of developers should try to do in their projects."
+        },
+        {
+          "type": "image-landscape",
+          "data": {
+            "link": "/assets/imgs/blog/kiss/simple-desk-kiss.jpg",
+            "alt": "Representation of simplicity"
+          }
+        },
+        {
+          "type": "heading",
+          "data": "The nightmare of any developer"
+        },
+        {
+          "type":"paragraph",
+          "data": "A software project is a book waiting to be written. From the start, pages are filled with decisions made. This book can be filled very rapidly in development."
+        },
+        {
+          "type":"paragraph",
+          "data": "Just think about how much technologies there are. Within each tech, there are frameworks, methodologies, libraries, and many more."
+        },
+        {
+          "type":"paragraph",
+          "data": "As a junior, medior or senior developer start, he or she has to maintain and edit legacy code. Imagine a project with hundreds of dependencies, no documentaties, no clear CI/CD pipeline and an infrastructure that makes things much more complex. Ow, and the developing team is not in the company any more... It is the nightmare of every developer."
+        },
+        {
+          "type":"paragraph",
+          "data": "So how do we avoid shooting ourselves but also fellow developers in the foot? I always ask this question before decisions:"
+        },
+        {
+          "type":"strong-paragraph",
+          "data": "When a new developer start, he or she should be able to understand the project within a reasonable amount of time."
+        },
+        {
+          "type":"paragraph",
+          "data": "This does not mean a project has to be build using outdated tech, but every developer should ask himself these questions:"
+        },
+        {
+          "type":"unordened-list",
+          "data": [
+            "Is introducing this framework/library an addition to the project?",
+            "Does the extra benefits weigh up to the added complexity?",
+            "How long does it take to learn this library?"
+          ]
+        },
+        {
+          "type":"paragraph",
+          "data": "Don't be the developer that leaves a mess for the next person to work on it."
+        },
+        {
+          "type": "image-landscape",
+          "data": {
+            "link": "/assets/imgs/blog/kiss/labyrinth-complex.jpg",
+            "alt": "Complexity is the nightmare of developers and HR"
+          }
+        },
+        {
+          "type": "heading",
+          "data": "The nightmare of HR"
+        },
+        {
+          "type":"paragraph",
+          "data": "A overcomplicated project is not just bad for developers. The HR departement is also lost when hiring new developers. An example:"
+        },
+        {
+          "type":"quote",
+          "data": "Hi, we are a fun company possibly with some form of ninjas & we're looking for a NodeJS developer. Bonus points are: Docker, Kubernetes, Express or some other back-end framework, Python knowledge, Gulp, Grunt, Webpack, Lodash, Material ui, BackboneJS, prototype.js, moment.js, Vagrant, Legacy PHP, pm2, React, Vue and/or Angular, ES6 JavaScript, Expert CSS, JAM Stack, Architectures, Design patterns, Terraform, AWS or Azure, CI/CD, DevOps, Github or Gitlab, ..."
+        },
+        {
+          "type":"paragraph",
+          "data": "Companies are always looking for good developers. The number of potential developers decline with each new technology introduced in a project or stack. Few individuals can do everything."
+        },
+        {
+          "type":"paragraph",
+          "data": "Even if the HR department finds that one developer that ticks all the boxes. Chances are very small that dev will know how to implement all those technologies and make them work together."
+        },
+        {
+          "type": "heading",
+          "data": "Business can benefit too"
+        },
+        {
+          "type":"paragraph",
+          "data": "If a developer needs to learn every library used, and it takes one month. That's one month of zero billable hours. A project made with KISS in mind, is a project ready for the future. I don't want to sound like a senior developer that doesn't want to change at the pace of the industry. I like the velocity of the software industry, it is what keeps it interesting. My point is that developers and engineers should make sure that code, architecture and infrastructure is easily transferred to others."
+        }
+      ]
+    },
+    {
+      "handle": "generalist-specialist",
+      "meta": {
+        "title": "Generalist or specialist - Jos De Berdt",
+        "description": "Some points on how to determine if you want to be a generalist or specialist in software development."
+      },
+      "pubdate": "2019-05-09",
+      "title": "Generalist or specialist developer",
+      "article": [
+        {
+          "type": "paragraph",
+          "data": "Often young developers ask themselves \"Do I want to become an expert in technology A or do I need to expand my knowledge\". In essence, the question is \"Do I become a generalist or a specialist?\". Both of them can build an amazing career in development but if this article triggers you... I suggest reading the fantastic book \"The Passionate Programmer\" of Chad Fowler. "
+        },
+        {
+          "type": "heading",
+          "data": "Generalist , the handyman"
+        },
+        {
+          "type": "paragraph",
+          "data": "A handyman used to have a bad connotation because it referred to someone that wasn't specialised in anything. in development and more particular webdevelopment, a handyman is now called a 'full-stack developer'. A full-stack developer knows a certain stack (front-end, back-end, server, database, ...) but is not an expert in anything within that stack. Off course a full-stack developer has a certain preference... Mine is front-end development. "
+        },
+        {
+          "type": "paragraph",
+          "data": "That the handyman in software development has received a new title is not strange. Companies need handymen that have basic knowledge of everything to work out a solid architecture which can be refined later. Software is 'soft'. Software requirements change over time. A generalist can take his toolbox of different technologies and look which technology or tool suits the project."
+        },
+        {
+          "type": "paragraph",
+          "data": "A lot of developers define themselves by the tools they use. 'I am a Wordpress / Drupal developer.' of 'I build with React / Angular / Vue.' By doing so, they are limiting themselves because they will look at their tool and figure out how the problem is fixed within that tool. A generalist will look at the problem and pick the best tool for the job."
+        },
+        {
+          "type": "image-landscape",
+          "data": {
+            "link": "/assets/imgs/blog/generalist/multitool-general-dev.jpg",
+            "alt": "Multitool or rather something specific for the job..."
+          }
+        },
+        {
+          "type": "heading",
+          "data": "Specialist , deep knowledge"
+        },
+        {
+          "type": "paragraph",
+          "data": "I've conducted many job interviews and I always ask how the interviewee would rate himself for a certain technology. If I get 8 or 9 out of 10... Then I expect to have an expert in front of me."
+        },
+        {
+          "type": "paragraph",
+          "data": "An expert should be able to have deep knowledge of a certain subject, so I usually ask some in depth questions about the tech. The questions are to evaluate if the candidate really is the expert he or she thinks he is. Questions about security is usually where a specialist is very knowledgeable."
+        },
+        {
+          "type": "paragraph",
+          "data": "A specialist is also very important for companies. A specialist will ensure the project meets certain quality requirements (that's the theory). To conclude... Companies need specialists and generalist, both have advantages and disadvantages. But it is very important for a company to know which type of person they need."
+        },
+        {
+          "type": "heading",
+          "data": "Opinion: Business size"
+        },
+        {
+          "type": "paragraph",
+          "data": "Smaller companies usually need generalists."
+        },
+        {
+          "type": "paragraph",
+          "data": "Big companies with a small development team usually need more generalists than specialists."
+        },
+        {
+          "type": "paragraph",
+          "data": "Big development teams usually require more specialists than generalists (but generalists are still necessairy)."
+        }
+      ]
+    },
+    {
+      "handle": "mobile-web-specialist",
+      "meta": {
+        "title": "Google Certified Mobile Web Specialist - Jos De Berdt",
+        "description": "Certificates are a way to show some knowledge about a subject, and the Google certification process is a bit harder than other online certifications."
+      },
+      "pubdate": "2019-07-20",
+      "title": "Mobile Web Specialist",
+      "article": [
+        {
+          "type": "paragraph",
+          "data": "When my first daughter was born, a year did not feel like a long time. Time passed quicker than it used to. It felt like I was rusted in my job and knowledge. In may 2017 I changed my job and told myself to get back being a webdeveloper with knowledge of the latest tech and developments. But I wanted something to show that I gained experience... First step: Follow some courses."
+        },
+        {
+          "type": "image-portrait",
+          "data": {
+            "link": "/assets/imgs/blog/certified/udacity-jdb-mws.png",
+            "alt": "Udacity certified Mobile Web Specialist"
+          }
+        },
+        {
+          "type": "paragraph",
+          "data": "A colleague told me about a Udacity - Google Scholarshi. The goal was to receive a Mobile Web Specialist nanodegree at the end. There were 20 000 scholars in the first phase and only 2000 eventually got accepted in the second phase. I was one of those 2000."
+        },
+        {
+          "type": "paragraph",
+          "data": "The second phase had a time limit of 6 months, and I completed it in half that time. The 2000 scholars got several projects to complete and every project was judged and evaluated by a mentor. It taught me several new things such as web accessibility, performance monitoring and debugging, PWA's, mobile first approach and much more. But the nanodegree was not my goal..."
+        },
+        {
+          "type": "image-portrait",
+          "data": {
+            "link": "/assets/imgs/blog/certified/jdb-google-mobile-web-specialist.png",
+            "alt": "Google certified Mobile Web Specialist"
+          }
+        },
+        {
+          "type": "paragraph",
+          "data": "The 15th of may I took the Google Exam to become a Google Certified Mobile Web Specialist. It takes 4 hours of coding (in a virtual desktop) and 15 minutes of video interview about the challenges in the exam. It was a long time ago that I was that nervous for anything... But I made it till the end, and after 35 (agonizing) days, I got a message telling me I passed the exam. "
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Have a look at the certification",
+            "link": "https://www.credential.net/71b8a880-f285-4328-960f-283d9a07945f?key=873ff25d7ccb77c9fe32758f6b3c8707307d5c744f4ab5a73751b7c1113194ed"
+          }
+        }
+      ]
+    },
+    {
+      "handle": "nodejs-cd-pm2",
+      "meta": {
+        "title": "Continuous deployment with PM2 - Jos De Berdt",
+        "description": "Continuous integration and deployment or delivery is important in every project, but what is a good CI/CD pipeline for small NodeJS projects?"
+      },
+      "pubdate": "2019-06-17",
+      "title": "Deploying with PM2",
+      "article": [
+        {
+          "type": "paragraph",
+          "data": "Building a good CI/CD pipeline can take some time. The pipeline is very interesting for larger projects because it automates going from local development to a staging and/or production environment. It also facilitates the teamwork between developers. So all in all... CI/CD, it has a lot of advantages. "
+        },
+        {
+          "type": "paragraph",
+          "data": "Even on smaller projects, it is interesting to build a decent pipeline... A smaller project usually means smaller budget. Which pipeline can a developer quickly set up for a small project ? ... Enter PM2 deploy!"
+        },
+        {
+          "type": "image-portrait",
+          "data": {
+            "link": "/assets/imgs/blog/pm2/pm2-logo-jdb.png",
+            "alt": "NodeJS process manager - the PM2 logo"
+          }
+        },
+        {
+          "type": "heading",
+          "data": "PM2"
+        },
+        {
+          "type": "paragraph",
+          "data": "PM2 is a process manager for NodeJS. It does this quite well because it has very interesting features. Features such as : zero downtime reloads, max memory reloads, monitoring & log management, hot reload, cluster mode, ... and off course deployment worflow."
+        },
+        {
+          "type": "heading",
+          "data": "CI/CD"
+        },
+        {
+          "type": "paragraph",
+          "data": "CI/CD is an abbreviation of Continuous Integration & Continuous Deployment (or Delivery)."
+        },
+        {
+          "type": "paragraph",
+          "data": "Integration is usually automated testing and deployment is is often referred as going from a local environment to a staging and production environment. Even though I won't say much about version control systems, it is an important part of CI/CD."
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Read the deployment docs",
+            "link": "https://pm2.keymetrics.io/docs/usage/deployment/"
+          }
+        },
+        {
+          "type": "link",
+          "data": {
+            "text": "Have a look at one of my project using PM2 on Github",
+            "link": "https://github.com/Jozzeh/pm2-visualised"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+.featuredHeading {
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+.featured a {
+  width: inherit;
+}
+
+.featuredFirst,
+.featuredSecond {
+  height: 300px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.featuredFirst img,
+.featuredSecond img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.featuredText {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #f5f5f5;
+  padding: 15px 25px;
+  max-width: 65%;
+}
+.featuredTitle,
+.featuredIntro {
+  margin-bottom: 10px;
+}
+.featuredIntro {
+  font-size: 14px;
+}
+.featuredPubDate {
+  color: #ccc;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 900px) {
+  .featuredFirst,
+  .featuredSecond {
+    margin-bottom: 0px;
+  }
+}

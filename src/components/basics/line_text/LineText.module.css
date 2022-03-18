@@ -1,0 +1,29 @@
+.dottedLine,
+.fullLine {
+  width: 50px;
+  border-color: #444;
+  border-width: 1px;
+}
+.inversedLine {
+  border-color: #f1f1f1;
+}
+
+.lineFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lineText {
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.extraBottomMargin {
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 900px) {
+  .extraBottomMargin {
+    margin-bottom: 40px;
+  }
+}

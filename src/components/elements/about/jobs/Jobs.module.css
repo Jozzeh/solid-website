@@ -1,0 +1,12 @@
+.aboutJobsTitle {
+  margin-bottom: 15px;
+}
+.extraBottomMargin {
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 900px) {
+  .extraBottomMargin {
+    margin-bottom: 40px;
+  }
+}

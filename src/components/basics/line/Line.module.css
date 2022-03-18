@@ -1,0 +1,21 @@
+.dottedFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dottedLine,
+.fullLine {
+  width: 50px;
+  border-color: #444;
+  border-width: 1px;
+}
+
+.extraBottomMargin {
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 900px) {
+  .extraBottomMargin {
+    margin-bottom: 40px;
+  }
+}

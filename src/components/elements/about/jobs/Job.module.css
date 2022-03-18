@@ -1,0 +1,59 @@
+
+.jobsWrapper {
+  padding: 15px;
+  border: solid 1px #f1f1f1;
+  margin-bottom: 25px;
+}
+.jobsHeader,
+.jobsContent {
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.jobsHeader {
+  border-bottom: solid 2px #ccc;
+  margin-bottom: 10px;
+}
+
+.jobsTitle,
+.jobsYear,
+.jobsCompany,
+.jobsResponsibility,
+.jobsTech {
+  width: 100%;
+  padding-bottom: 5px;
+}
+.jobsYear,
+.jobsCompany {
+  font-size: 14px;
+  color: #666;
+}
+
+.jobsTechText {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+.techstack {
+  padding: 5px;
+  margin: 5px;
+  border: solid 1px #f1f1f1;
+}
+
+.jobsResponsibilityText p {
+  margin-top: 0;
+  font-size: 16px;
+}
+.jobsResponsibility,
+.jobsTech {
+  margin: 10px 0;
+  width: 100%;
+}
+.jobsResponsibilityTitle,
+.jobsTechTitle {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: solid 1px #ccc;
+}

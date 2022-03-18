@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "title": "The making of...",
+      "intro": "Read about how this website was conceived, sketched and built",
+      "image": "/assets/imgs/blog/making-of/child-build.jpg",
+      "handle": "idea-production-build",
+      "linktxt": "The making of this portfolio website",
+      "pubdate": "2020-01-03",
+      "featured": 1
+    },
+    {
+      "title": "Notable projects",
+      "intro": "Have a look at some of the projects I am proud to show.",
+      "image": "/assets/imgs/blog/projects/front-article.jpg",
+      "handle": "notable-projects",
+      "linktxt": "Check some of my projects",
+      "pubdate": "2020-03-10",
+      "featured": 2
+    },
+    {
+      "title": "KISS in development",
+      "intro": "Keep your project light and reap the rewards.",
+      "image": "/assets/imgs/blog/kiss/intro-to-kiss-dev.jpg",
+      "handle": "kiss-development",
+      "linktxt": "Want to kiss?",
+      "pubdate": "2020-01-18"
+    },
+    {
+      "title": "Mobile web specialist",
+      "intro": "In early 2019, I set myself the goal to learn something new and then I got an invite to start an online course...",
+      "image": "assets/imgs/blog/certified/laptop-cert.jpg",
+      "handle": "mobile-web-specialist",
+      "linktxt": "My road towards Mobile web specialist",
+      "pubdate": "2019-07-20"
+    },
+    {
+      "title": "NodeJS deployment with PM2",
+      "intro": "Continuous integration and deployment or delivery is important in every project, but what is a good CI/CD pipeline for small NodeJS projects?",
+      "image": "/assets/imgs/blog/pm2/port-deploy.jpg",
+      "handle": "nodejs-cd-pm2",
+      "linktxt": "Read how to deploy your NodeJS project",
+      "pubdate": "2019-06-17"
+    },
+    {
+      "title": "When to choose a generalist or specialist",
+      "intro": "As a developer, do you specialise in one area or do you try to expand your knowledge base as a generalist...",
+      "image": "/assets/imgs/blog/generalist/multitool-general-dev.jpg",
+      "handle": "generalist-specialist",
+      "linktxt": "Generalist or specialist",
+      "pubdate": "2019-05-09"
+    }
+  ]
+}

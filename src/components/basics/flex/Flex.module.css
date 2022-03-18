@@ -1,0 +1,32 @@
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.flexContainerPerc {
+  width: 100%;
+}
+.flexContent {
+  min-width: 100vw;
+  padding: 0 15px;
+}
+.printContent {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .flexContainer {
+    flex-wrap: nowrap;
+  }
+  .flexContent {
+    width: 900px;
+    min-width: auto;
+    padding: 0;
+  }
+  .smallFlexContent {
+    width: 680px;
+    min-width: auto;
+    padding: 0;
+  }
+}

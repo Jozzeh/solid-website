@@ -1,0 +1,45 @@
+/* ***** MENU & LOGO ***** */
+.menuContainer {
+  display: block;
+  align-items: center;
+}
+.menu {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.menu a {
+  padding: 15px 10px;
+  font-size: 14px;
+}
+.logo {
+  width: 100%;
+  text-align: center;
+}
+.logo img {
+  display: inline-block;
+  max-width: 75px;
+}
+
+@media screen and (min-width: 900px) {
+  .menuContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    flex: 1;
+    text-align: left;
+  }
+  .logo img {
+    max-width: 100px;
+  }
+  .menu {
+    width: auto;
+    text-align: right;
+    padding: 0;
+  }
+  .menu a {
+    padding: 15px;
+  }
+}

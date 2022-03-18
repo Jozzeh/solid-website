@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "year": "2018",
+      "title": "Mobile Web Specialist",
+      "institution": "Google",
+      "link": "https://www.josdeberdt.be/assets/files/jdb-mws-certificate.pdf",
+      "linkName": "See this certificate"
+    },
+    {
+      "year": "2018",
+      "title": "Project planning, monitoring & control",
+      "institution": "IFBD",
+      "link": "https://www.ifbd.be/nl/management-opleiding/project-management/",
+      "linkName": "See course content"
+    },
+    {
+      "year": "2017",
+      "title": "Online marketing",
+      "institution": "Google",
+      "link": "https://www.google.com",
+      "linkName": "Go to Google"
+    },
+    {
+      "year": "2016",
+      "title": "Concrete5 CMS Level 1",
+      "institution": "Concrete5",
+      "link": "https://www.concrete5.org",
+      "linkName": "Concrete5 CMS"
+    },
+    {
+      "year": "2009",
+      "title": "Bachelor Graphical & Digital Media",
+      "institution": "Artevelde",
+      "link": "https://www.arteveldehogeschool.be/opleidingen/bachelor/grafische-en-digitale-media",
+      "linkName": "More information",
+      "formal": 1
+    }
+  ]
+}

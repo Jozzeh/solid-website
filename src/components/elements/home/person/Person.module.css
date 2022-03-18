@@ -1,0 +1,63 @@
+.homePerson {
+  display: block;
+  border-top: solid 1px #f5f5f5;
+  border-bottom: solid 1px #f5f5f5;
+  padding: 15px 0 10px 0;
+}
+.homePersonLeft {
+  font-size: 80px;
+  width: 100%;
+  color: #666;
+}
+.homePersonRight h1,
+.homePersonRight h2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.5;
+}
+.homePersonRight p{
+  margin-top: 10px;
+  line-height: 10px;
+}
+
+@media screen and (min-width: 900px) {
+  .homePerson {
+    display: flex;
+    border-top: solid 2px #f5f5f5;
+    border-bottom: solid 2px #f5f5f5;
+    padding: 25px 0;
+    margin: 25px 15px;
+  }
+  .homePersonLeft {
+    font-size: 320px;
+    width: 50%;
+    color: #666;
+    line-height: 290px;
+  }
+  .homePersonRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .homePersonRight p{
+    margin-top: 25px;
+    line-height: 32px;
+  }
+  .homePersonSmall {
+    width: 100%;
+    font-size: 24px;
+  }
+  .homePersonRight h1,
+  .homePersonRight h2 {
+    width: 100%;
+    font-size:60px;
+    font-weight: 400;
+    color: #000;
+    line-height: 68px;
+  }
+  .homePersonRight h2{
+    font-size: 40px;
+  }
+}

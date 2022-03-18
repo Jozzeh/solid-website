@@ -1,0 +1,55 @@
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.flexContainerPerc {
+  width: 100%;
+}
+.flexContent {
+  min-width: 100vw;
+  padding: 0 15px;
+}
+
+
+.leftColumn,
+.rightColumn {
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  /* ***** SIMPLE GRID ***** */
+  .half {
+    width: 50%;
+    margin-right: 15px;
+  }
+  .oneThird {
+    width: 33%;
+    margin-right: 15px;
+  }
+  .twoThird {
+    width: 66%;
+    margin-right: 15px;
+  }
+  .oneFourth {
+    width: 25%;
+    margin-right: 15px;
+  }
+  .threeFourth {
+    width: 75%;
+    margin-right: 15px;
+  }
+  .rightColumn {
+    flex: 1;
+    display: flex;
+  }
+  
+  .flexContainer {
+    flex-wrap: nowrap;
+  }
+
+  .flexEnd {
+    align-items: flex-end;
+  }
+}
