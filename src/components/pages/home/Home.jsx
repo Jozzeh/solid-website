@@ -11,15 +11,15 @@ import { MetaProvider, Title, Meta } from "solid-meta";
 const Home = () => (
   <div>
     <MetaProvider>
-      <Title>Frontend developer & Speaker - Jos De Berdt</Title>
+      <Title>Frontend & hybrid mobile developer - Jos De Berdt</Title>
       <Meta
         name="description"
-        content="Frontend developer specialised in web and hybrid mobile app development... Jos De Berdt"
+        content="Belgian frontend developer specialised in web and hybrid mobile app development... Jos De Berdt"
       />
-      <Meta property="og:title" content="Frontend developer & Speaker - Jos De Berdt" />
+      <Meta property="og:title" content="Frontend & hybrid mobile developer - Jos De Berdt" />
       <Meta
         property="og:description"
-        content="Frontend developer specialised in web and hybrid mobile app development... Jos De Berdt"
+        content="Belgian frontend developer specialised in web and hybrid mobile app development... Jos De Berdt"
       />
     </MetaProvider>
     <Hero />
