@@ -1,6 +1,16 @@
 {
   "data": [
     {
+      "txt": "A decent company culture makes colleagues (and bosses) amazing.",
+      "tech": "Tech industry",
+      "pubdate": "2022-03-15"
+    },
+    {
+      "txt": "React has no predefined workflows and structure. Experience with projects of all sizes is important.",
+      "tech": "React",
+      "pubdate": "2022-01-12"
+    },
+    {
       "txt": "The more opinionated, the more attention. What happened to KISS?",
       "tech": "Tech social media",
       "pubdate": "2021-01-30"
