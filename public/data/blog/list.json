@@ -35,12 +35,12 @@
       "pubdate": "2019-07-20"
     },
     {
-      "title": "NodeJS deployment with PM2",
-      "intro": "Continuous integration and deployment or delivery is important in every project, but what is a good CI/CD pipeline for small NodeJS projects?",
+      "title": "Deploying to the cloud using DO app platform",
+      "intro": "Continuous integration and deployment or delivery is important in every project. Here's a good way to easely deploy web apps.",
       "image": "/assets/imgs/blog/pm2/port-deploy.jpg",
-      "handle": "nodejs-cd-pm2",
-      "linktxt": "Read how to deploy your NodeJS project",
-      "pubdate": "2019-06-17"
+      "handle": "deploy-do-app-platform",
+      "linktxt": "Read how to deploy your web app project",
+      "pubdate": "2021-12-17"
     },
     {
       "title": "When to choose a generalist or specialist",

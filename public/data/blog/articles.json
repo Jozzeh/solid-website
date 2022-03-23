@@ -73,15 +73,15 @@
         },
         {
           "type": "paragraph",
-          "data": "After all designs and content are made... I choose the technology I want to work in. I've chosen NextJS because it uses React and I'm working a lot with React these days."
+          "data": "After all designs and content are made... I choose the technology I want to work in. For the first iteration, I've chosen NextJS because it uses React and I'm working a lot with React these days."
         },
         {
           "type": "paragraph",
-          "data": "Other technologies such as Svelte, native web components, etc... are very interesting, but I wanted to get to know NextJS a bit more and how it utilises React."
+          "data": "Other technologies such as Svelte, native web components, etc... are very interesting, but I wanted to get to know NextJS a bit more. After some time maintaining my own server (nginx, linux, ...), I decided to recreate the website with SolidJS."
         },
         {
           "type": "paragraph",
-          "data": "Does this website show what I can do? No, and after 11 years in webdevelopment, I don't think I can create a website to show everything in detail."
+          "data": "Does this website show what I can do? No, and after 11 years in webdevelopment, I don't think I can create a website to show everything in detail. I believe projects build technical experience, but there is greater value in the soft skills learned with each project."
         },
         {
           "type": "paragraph",
@@ -105,14 +105,14 @@
         {
           "type": "link",
           "data": {
-            "text": "Click here to see this website made with NextJS",
+            "text": "Click here to see the code of this website made with NextJS",
             "link": "https://github.com/Jozzeh/live-website"
           }
         },
         {
           "type": "link",
           "data": {
-            "text": "Click here to see this website made with Svelte",
+            "text": "Click here to see the code of this website made with Svelte",
             "link": "https://github.com/Jozzeh/svelte-website"
           }
         },
@@ -167,13 +167,6 @@
           }
         },
         {
-          "type": "image-landscape",
-          "data": {
-            "link": "/assets/imgs/blog/projects/futurn-project.jpg",
-            "alt": "Screenshot of the futurn website"
-          }
-        },
-        {
           "type":"heading",
           "data": "Futurn: Website with an impact"
         },
@@ -208,8 +201,8 @@
         {
           "type": "image-landscape",
           "data": {
-            "link": "/assets/imgs/blog/projects/architecture-example.png",
-            "alt": "Example of a very simple service-based API architecture"
+            "link": "/assets/imgs/blog/projects/futurn-project.jpg",
+            "alt": "Screenshot of the futurn website"
           }
         },
         {
@@ -247,6 +240,13 @@
         {
           "type":"paragraph",
           "data": "Want to discuss high level architectures? Contact me through LinkedIn or Github."
+        },
+        {
+          "type": "image-landscape",
+          "data": {
+            "link": "/assets/imgs/blog/projects/architecture-example.png",
+            "alt": "Example of a very simple service-based API architecture"
+          }
         }
       ]
     },
@@ -470,13 +470,13 @@
       ]
     },
     {
-      "handle": "nodejs-cd-pm2",
+      "handle": "deploy-do-app-platform",
       "meta": {
-        "title": "Continuous deployment with PM2 - Jos De Berdt",
-        "description": "Continuous integration and deployment or delivery is important in every project, but what is a good CI/CD pipeline for small NodeJS projects?"
+        "title": "Continuous deployment with DO app platform - Jos De Berdt",
+        "description": "Continuous integration and deployment or delivery is important in every project. Read here how Digital Ocean app platform makes this easy."
       },
-      "pubdate": "2019-06-17",
-      "title": "Deploying with PM2",
+      "pubdate": "2021-12-17",
+      "title": "Deploying to Digital Ocean app platform",
       "article": [
         {
           "type": "paragraph",
@@ -484,7 +484,7 @@
         },
         {
           "type": "paragraph",
-          "data": "Even on smaller projects, it is interesting to build a decent pipeline... A smaller project usually means smaller budget. Which pipeline can a developer quickly set up for a small project ? ... Enter PM2 deploy!"
+          "data": "Even on smaller projects, it is interesting to build a decent pipeline... A smaller project usually means smaller budget. Which pipeline can a developer quickly set up for a small project ? ... Enter Digital Ocean app platform!"
         },
         {
           "type": "image-portrait",
@@ -495,7 +495,11 @@
         },
         {
           "type": "heading",
-          "data": "PM2"
+          "data": "Old days"
+        },
+        {
+          "type": "paragraph",
+          "data": "I used to be a fan of maintaining my own server and tinkering with nginx, certbot, etc... For Node projects, I used PM2 on the server."
         },
         {
           "type": "paragraph",
@@ -514,17 +518,30 @@
           "data": "Integration is usually automated testing and deployment is is often referred as going from a local environment to a staging and production environment. Even though I won't say much about version control systems, it is an important part of CI/CD."
         },
         {
-          "type": "link",
-          "data": {
-            "text": "Read the deployment docs",
-            "link": "https://pm2.keymetrics.io/docs/usage/deployment/"
-          }
+          "type": "heading",
+          "data": "App platform"
+        },
+        {
+          "type": "paragraph",
+          "data": "I've been a customer of DigitalOcean for quite some time. Since 2020 the company has brought new products to really simplify the life of a developer."
+        },
+        {
+          "type": "paragraph",
+          "data": "Sceptical as I am... I did not use App Platform first. App Platform is a managed solution for web applications. Bundled with their managed database product, it is a quick and secure solution. When setup properly, no outside connections are possible to the database but only from authorised apps."
+        },
+        {
+          "type": "paragraph",
+          "data": "In my spare time, I do some small projects. For a SaaS project, it was required to setup single tenants but all from a single codebase. The DigitalOcean API and their managed products really helped out."
+        },
+        {
+          "type": "paragraph",
+          "data": "There are other service that offer managed solutions, but most do not offer as much and/or are not as integrated. (By the way: 3 static websites are free)"
         },
         {
           "type": "link",
           "data": {
-            "text": "Have a look at one of my project using PM2 on Github",
-            "link": "https://github.com/Jozzeh/pm2-visualised"
+            "text": "Go to the DO app platform",
+            "link": "https://www.digitalocean.com/products/app-platform"
           }
         }
       ]
