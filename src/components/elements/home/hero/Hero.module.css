@@ -33,3 +33,9 @@
 .heroSmaller {
   font-size: 8px;
 }
+
+@media screen and (min-width: 900px) {
+  .heroContent {
+    font-size: calc(100vh / 2);
+  }
+}
