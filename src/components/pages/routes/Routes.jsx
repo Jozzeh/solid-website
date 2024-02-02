@@ -9,6 +9,7 @@ const Home = lazy(() => import("/src/components/pages/home/Home.jsx"));
 const About = lazy(() => import("/src/components/pages/about/About.jsx"));
 const Blog = lazy(() => import("/src/components/pages/blog/Blog.jsx"));
 const BlogArticle = lazy(() => import("/src/components/pages/blog_article/BlogArticle.jsx"));
+const Showcase = lazy(() => import("/src/components/pages/showcase/Showcase.jsx"));
 const NotFound = lazy(() => import("/src/components/pages/not_found/NotFound.jsx"));
 
 function AppRoutes() {
@@ -19,6 +20,7 @@ function AppRoutes() {
         <Menu />
       </Flex>
       <Routes>
+        <Route path="/showcase" element={<Showcase />} />
         <Route path="/blog/:id" element={<BlogArticle />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
