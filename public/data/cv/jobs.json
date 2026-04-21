@@ -1,10 +1,29 @@
 {
   "data": [
     {
+      "year": "2022-...",
+      "title": "Principal Architect & Core team member",
+      "company": "Octoo",
+      "responsibilities": "Technical leader and core team member responsible for shaping company-wide technology strategy, architecture, and engineering culture, while remaining hands-on in building scalable software platforms. lead several internal groups focused on knowledge sharing and continuous improvement, with a strong emphasis on staying current with developments in web development and AI. I also mentor developers and interns, helping strengthen both technical skills and engineering culture.",
+      "tech": [
+        "Public speaking",
+        "Coaching",
+        "Team leadership",
+        "People development",
+        "Change management",
+        "AI",
+        "Cyber security",
+        "Component libraries",
+        "Architecture",
+        "Web applications",
+        "Hybrid mobile apps"
+      ]
+    },
+    {
       "year": "2019-...",
       "title": "Front-end developer",
       "company": "Sweet Mustard",
-      "responsibilities": "I enjoyed the team lead experience but went back to calling myself a front-end developer... I still coach IT-teams. I mainly develop web applications in React, but also hybride mobile apps in React Native and Flutter. The 'VanheedePlus' app is one of the projects I co-created. I like speaking in front of an audience which is why I give presentations at meetups and schools. My current work involves micro frontend architecture, design systems & component libraries. I use Storybook to visualise and document the component libraries.",
+      "responsibilities": "I enjoyed the team lead experience but went back to calling myself a front-end developer... I still coach IT-teams. I mainly develop web applications in React, but also hybride mobile apps in React Native and Flutter. The 'VanheedePlus' app is one of the projects I co-created. I like speaking in front of an audience which is why I give presentations at meetups and schools. My current work involves micro frontend architecture, design systems & component libraries.",
       "tech": [
         "HTML",
         "CSS",
