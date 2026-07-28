@@ -1,0 +1,22 @@
+{
+  "name": "Noti Minute",
+  "short_name": "Noti",
+  "start_url": "/noti/",
+  "scope": "/noti/",
+  "display": "standalone",
+  "background_color": "#f7f8fc",
+  "theme_color": "#16324f",
+  "description": "A tiny PWA that schedules a short burst of joke notifications over the next two minutes.",
+  "icons": [
+    {
+      "src": "/assets/imgs/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/imgs/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

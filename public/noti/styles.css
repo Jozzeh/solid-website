@@ -1,0 +1,205 @@
+:root {
+  --bg-top: #f1e4c7;
+  --bg-bottom: #f7f8fc;
+  --ink: #16324f;
+  --ink-soft: #35526d;
+  --panel: rgba(255, 255, 255, 0.88);
+  --line: rgba(22, 50, 79, 0.14);
+  --accent: #d96c06;
+  --accent-dark: #a24c00;
+  --success: #157347;
+  --warning: #8d5a00;
+  --muted: #66768a;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(217, 108, 6, 0.2), transparent 35%),
+    linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+}
+
+.shell {
+  width: min(960px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.hero {
+  margin-bottom: 1.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--accent-dark);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p,
+li {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.75rem;
+  font-size: clamp(2.5rem, 7vw, 4.75rem);
+  line-height: 0.95;
+}
+
+.lede {
+  max-width: 42rem;
+  margin-bottom: 0;
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.panel {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--panel);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 18px 60px rgba(22, 50, 79, 0.12);
+}
+
+.panel-heading {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.panel-heading h2 {
+  margin-bottom: 0;
+}
+
+.badge,
+.subtle {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.badge {
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(22, 50, 79, 0.08);
+}
+
+.badge.granted {
+  color: var(--success);
+  background: rgba(21, 115, 71, 0.12);
+}
+
+.badge.denied {
+  color: #aa2e25;
+  background: rgba(170, 46, 37, 0.12);
+}
+
+.badge.default {
+  color: var(--warning);
+  background: rgba(141, 90, 0, 0.12);
+}
+
+.status-text {
+  margin-bottom: 1rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.button {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.95rem 1.2rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 180ms ease,
+    opacity 180ms ease,
+    background-color 180ms ease;
+}
+
+.button:hover:not(:disabled),
+.button:focus-visible:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button.primary {
+  color: white;
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+}
+
+.button.secondary {
+  color: var(--ink);
+  background: rgba(22, 50, 79, 0.08);
+}
+
+.notes,
+.activity-log {
+  padding-left: 1.2rem;
+}
+
+.notes {
+  margin-bottom: 0;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.activity-log {
+  margin: 0;
+}
+
+.activity-log li {
+  padding: 0.45rem 0;
+  color: var(--ink-soft);
+}
+
+.activity-log li strong {
+  color: var(--ink);
+}
+
+@media (max-width: 640px) {
+  .shell {
+    width: min(100% - 1rem, 960px);
+    padding-top: 1.5rem;
+  }
+
+  .panel {
+    padding: 1rem;
+    border-radius: 18px;
+  }
+
+  .button {
+    width: 100%;
+    justify-content: center;
+  }
+}

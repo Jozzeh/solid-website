@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#16324f" />
+    <meta
+      name="description"
+      content="A tiny PWA that schedules a short burst of playful notifications."
+    />
+    <link rel="manifest" href="/noti/manifest.webmanifest" />
+    <link rel="icon" href="/assets/imgs/icons/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="/assets/imgs/icons/apple-icon-180x180.png" />
+    <link rel="stylesheet" href="/noti/styles.css" />
+    <title>Noti Minute</title>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Mini PWA</p>
+        <h1>Noti Minute</h1>
+        <p class="lede">
+          Schedules a random batch of 5 to 15 joke notifications across the next 2 minutes.
+        </p>
+      </section>
+
+      <section class="panel" aria-labelledby="controls-title">
+        <div class="panel-heading">
+          <h2 id="controls-title">Notification Controls</h2>
+          <span id="permission-badge" class="badge">Checking permission…</span>
+        </div>
+
+        <p id="status-text" class="status-text">
+          Preparing the notification environment.
+        </p>
+
+        <div class="actions">
+          <button id="enable-button" class="button primary" type="button">
+            Enable notifications
+          </button>
+          <button id="schedule-button" class="button secondary" type="button" disabled>
+            Schedule a new batch
+          </button>
+        </div>
+
+        <ul class="notes">
+          <li>Permission is requested only after a button click.</li>
+          <li>If permission is already granted, a batch is queued automatically on launch.</li>
+          <li>Refreshing repeatedly is rate-limited to avoid accidental notification spam.</li>
+          <li>For the best chance of delivery, keep the PWA open for the next 2 minutes.</li>
+        </ul>
+      </section>
+
+      <section class="panel" aria-labelledby="activity-title">
+        <div class="panel-heading">
+          <h2 id="activity-title">Activity Log</h2>
+          <span id="scheduled-summary" class="subtle">No batch queued yet.</span>
+        </div>
+        <ol id="activity-log" class="activity-log"></ol>
+      </section>
+    </main>
+
+    <script type="module" src="/noti/app.js"></script>
+  </body>
+</html>
